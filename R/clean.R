@@ -16,6 +16,12 @@
 #' @param A data frame in NOAA Significant Earthquake Database format
 #' 
 #' @return A cleaned NOAA data frame
+#' 
+#' @examples
+#' \dontrun{
+#' data <- readr::read_delim("earthquakes.tsv.gz", delim = "\t")
+#' earthquakes <- eq_location_clean(data)
+#' }
  
 eq_clean_data <- function(fileName) {
   require(magrittr)
