@@ -1,6 +1,6 @@
 Package: trmr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Visualising the NOAA Earthquake Data
 Version: 0.1.0
 Author: Axel Budde
 Maintainer: Axel Budde <axel.budde@posteo.de>
